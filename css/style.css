@@ -5,10 +5,12 @@
 }
 
 body {
+    background-color: #fdf5f1;
     font-family:Georgia, 'Times New Roman', Times, serif;
     align-items: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 header {
     background-color: #ffc595;
     border-radius: 20px;
@@ -20,6 +22,7 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
 header img {
     width: 200px;
     height: 200px;
@@ -38,16 +41,17 @@ header img {
 }
 
 .card {
-    background-color: rgb(248, 197, 155) ;
-    margin-bottom: 100%;
-    margint-top: 20px;
+    background-color: rgb(248, 197, 155);
+    margin-top: 20px;
     width: 30%;
+    border-radius: 10px;
 
 }
 
 .card img {
     width: 100%;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 main {
@@ -61,4 +65,44 @@ main {
     align-items: space-between;
     margin-top: 20px;
     flex-wrap: wrap;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #ffc595;
+}
+
+.menu-principal {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+a {
+    margin-right: 10px;
+    color: #000;
+}
+
+.formulario {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.informacoes {
+    margin-top: 20px;
+    background-color: #ffc595;
+    padding: 20px;
+    border-radius: 18px;
 }
